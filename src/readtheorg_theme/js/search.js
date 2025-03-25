@@ -47,7 +47,7 @@ $(document).ready(function() {
     <div id="search-container">
       <label for="search-input" class="sr-only">文章の検索</label>
       <input type="text" id="search-input" placeholder="ワード..." aria-describedby="search-description">
-      <div id="search-description" class="sr-only">検索ワードを入力してください。</div>
+      <div id="search-description" class="sr-only">文書内を検するにはワードを入力してください。</div>
       <ul id="search-results" role="listbox" aria-label="Search results"></ul>
     </div>
   `);
